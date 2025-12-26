@@ -1,0 +1,404 @@
+*{
+
+
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+li{
+
+list-style: none;
+
+}
+
+
+a{
+
+
+
+text-decoration: none;
+
+
+}
+
+
+
+.wrapper{
+
+display: flex;
+height: 6130px;
+width: 1920px;
+background: #FFFFFF;
+margin: auto;
+}
+
+
+
+body{
+
+background: black;
+padding: 50px;
+
+}
+
+
+.nav_list{
+
+display: flex;
+justify-content: center;
+margin-left: 650px;
+gap: 70px;
+padding: 30px;
+}
+
+
+ul{
+
+
+justify-content: center;
+
+}
+
+
+a{
+
+
+
+width: 93px;
+height: 23px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 25.5738px;
+line-height: 42px;
+
+color: #000000;
+
+
+order: 1;
+flex-grow: 0;
+
+
+}
+
+
+.link1{
+
+
+
+color: #90E051;
+
+
+
+}
+
+
+.nav_right{
+
+display: flex;
+position: relative;
+left: 1700px;
+bottom: 60px;
+
+}
+
+
+
+.intro_h{
+
+
+position: relative;
+
+width: 640px;
+height: 223.3px;
+right: 900px;
+top: 255px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 192px;
+
+color: #000000;
+
+
+}
+
+
+.intro_left{
+
+
+justify-content: flex-start;
+
+
+}
+
+
+.intro_main_h{
+
+position: relative;
+width: 704px;
+height: 249px;
+right: 900px;
+top: 140px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 192px;
+
+color: #90E051;
+
+
+}
+
+
+.intro_p{
+
+
+
+position: relative;
+right: 900px;
+top: 70px;
+bottom: 33.19%;
+max-width: 400px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 22.3333px;
+line-height: 34px;
+
+color: #000000;
+
+
+}
+
+
+.see_all{
+
+
+position: relative;
+width: 246px;
+height: 88px;
+top: 130px;
+right: 920px;
+background: #90E051;
+border-radius: 20px;
+border: none;
+
+
+color: white;
+font-size: 30px;
+font-weight: 700;
+
+}
+
+
+.menu_word{
+
+position: relative;
+    width: 122px;
+height: 64px;
+top: 70px;
+right: 580px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 29.3999px;
+line-height: 49px;
+
+color: #90E051;
+
+
+}
+
+
+.intro_right{
+
+display: flex;
+position: relative;
+
+}
+
+.burger_logo{
+
+
+position: relative;
+
+bottom: 530px;
+right: 300px;
+
+}
+
+.nav_right{
+
+gap: 20px;
+
+position: relative;
+
+}
+
+
+.count_4{
+
+    align-items: center;
+display: flex;
+position: relative;
+right: 1400px;
+bottom: 1980px;
+justify-content: center;
+gap: 70px;
+
+}
+
+
+.photos2{
+align-items: center;
+display: flex;
+position: relative;
+gap: 200px;
+right: 2750px;
+bottom: 1250px;
+}
+
+
+.customer{
+
+position: relative;
+
+
+}
+
+
+.customer_h{
+
+position: relative;
+
+right: 4450px;
+
+width: 529px;
+height: 71px;
+top: 2700px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 60.4566px;
+line-height: 71px;
+font-feature-settings: 'kern' off;
+
+color: #333333;
+
+
+
+}
+
+
+
+
+.customer_p{
+
+position: relative;
+
+right: 4450px;
+
+top: 2750px;
+
+
+color: #333333;
+
+
+
+
+
+width: 675.1px;
+height: 121px;
+font-style: normal;
+font-weight: 400;
+font-size: 20.1522px;
+line-height: 30px;
+color: #828282;
+
+
+
+
+
+}
+
+.customer_left{
+
+
+
+}
+
+
+.customer_right{
+
+position: relative;
+right: 3500px;
+top: 2400px;
+}
+
+.chizburger{
+
+
+
+}
+
+.baho{
+position: relative;
+right: 270px;
+bottom: 280px;
+
+}
+
+
+.tel_burger{
+
+position: relative;
+top: 3400px;
+right: 5300px;
+}
+
+
+.big_img{
+
+position: relative;
+
+
+}
+
+
+.about_us{
+
+position: relative;
+top: 4400px;
+right: 7220px;
+
+}
+
+.about_img{
+
+    position: relative;
+}
+
+
+.footer{
+
+position: relative;
+top: 5400px;
+right: 9140px;
+
+}
+
+.footer_img{
+
+position: relative;
+
+}
