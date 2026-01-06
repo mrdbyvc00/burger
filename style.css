@@ -1,295 +1,244 @@
 *{
 
-
-
-padding: 0;
 margin: 0;
+padding: 0;
 box-sizing: border-box;
 
-}
 
+}
 
 li{
 
-list-style: none;
-
+    list-style: none;
 }
 
 
 a{
 
+    text-decoration: none;
 
 
-text-decoration: none;
-
-
-}
-
-
-
-.wrapper{
-
-display: flex;
-height: 6130px;
-width: 1920px;
-background: #FFFFFF;
-margin: auto;
-}
-
-
-
-body{
-
-background: black;
-padding: 50px;
-
-}
-
-
-.nav_list{
-
-display: flex;
-justify-content: center;
-margin-left: 650px;
-gap: 70px;
-padding: 30px;
-}
-
-
-ul{
-
-
-justify-content: center;
-
-}
-
-
-a{
-
-
-
-width: 93px;
-height: 23px;
 
 font-family: 'Rubik';
 font-style: normal;
 font-weight: 500;
-font-size: 25.5738px;
+font-size: 12px;
 line-height: 42px;
 
 color: #000000;
 
 
+flex: none;
 order: 1;
 flex-grow: 0;
 
+}
 
+.nav_left{
+
+
+    display: flex;
+}
+
+.nav{
+
+    display: flex;
+}
+
+ul{
+position: relative;
+display: flex;
+margin-left: 420px;
+gap: 50px;
+
+top: 20px;
+
+
+
+
+font-family: 'Rubik';
+
+color: #000000;
+
+
+
+}
+
+.wrapper{
+width: 1400px;
+height: 4800px;
+background: white;
+margin: auto;
+
+}
+
+body{
+padding: 40px;
+    background: black;
 }
 
 
 .link1{
 
-
-
-color: #90E051;
-
-
-
+color: greenyellow;
 }
-
 
 .nav_right{
-
 display: flex;
-position: relative;
-left: 1700px;
-bottom: 60px;
-
+    position: relative;
+align-items: center;
+left: 400px;
+gap: 10px;
+top: 20px;
 }
 
+.human{
 
-
-.intro_h{
-
-
-position: relative;
-
-width: 640px;
-height: 223.3px;
-right: 900px;
-top: 255px;
-
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 192px;
-
-color: #000000;
+width: 15px;
+height: 18px;
 
 
 }
 
+.lupa{
 
-.intro_left{
+width: 15px;
+height: 18px;
 
+}
 
-justify-content: flex-start;
+.sumkacha{
+
+    width: 15px;
+    height: 18px;
+}
+
+.main_texts{
+position: relative;
+top: 160px;
 
 
 }
 
-
-.intro_main_h{
-
+.tasty_food{
 position: relative;
-width: 704px;
-height: 249px;
-right: 900px;
-top: 140px;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 192px;
-
-color: #90E051;
-
-
+font-size: 47px;
+left: 80px;
 }
 
-
-.intro_p{
-
-
-
+.collections{
 position: relative;
-right: 900px;
-top: 70px;
-bottom: 33.19%;
-max-width: 400px;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 22.3333px;
-line-height: 34px;
+font-size: 47px;
+    color: greenyellow;
+    left: 80px;
+}
 
-color: #000000;
-
-
+.buttons{
+position: relative;
+    display: flex;
+    gap: 40px;
 }
 
 
 .see_all{
 
-
 position: relative;
-width: 246px;
-height: 88px;
-top: 130px;
-right: 920px;
+
+font-size: 22px;
+width: 180px;
+height: 58px;
+top: 50px;
+left: 40px;
+border: navajowhite;
 background: #90E051;
 border-radius: 20px;
-border: none;
-
-
 color: white;
-font-size: 30px;
-font-weight: 700;
 
 }
 
 
-.menu_word{
+.menu{
 
+color: greenyellow;
+font-size: 20px;
 position: relative;
-    width: 122px;
-height: 64px;
-top: 70px;
-right: 580px;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 29.3999px;
-line-height: 49px;
-
-color: #90E051;
-
+top: 65px;
+left: 60px;
 
 }
 
-
-.intro_right{
-
-display: flex;
-position: relative;
-
-}
-
-.burger_logo{
-
-
-position: relative;
-
-bottom: 530px;
-right: 300px;
-
-}
-
-.nav_right{
-
-gap: 20px;
+.main_burger{
 
 position: relative;
 
 }
 
 
-.count_4{
-
-    align-items: center;
-display: flex;
+.burger{
+    width: 650px;
+    height: 580px;
 position: relative;
-right: 1400px;
-bottom: 1980px;
-justify-content: center;
-gap: 70px;
-
+left: 480px;
+bottom: 100px;
 }
 
-
-.photos2{
-align-items: center;
-display: flex;
-position: relative;
-gap: 200px;
-right: 2750px;
-bottom: 1250px;
-}
-
-
-.customer{
+.teaster{
 
 position: relative;
 
 
 }
 
+.teaster_logo{
+
+position: relative;
+right: 000px;
+width: 1200px;
+
+}
+
+.gamburger{
+position: relative;
+
+}
+
+.gamburger_logo{
+
+position: relative;
+ width: 550px;
+    height: 480px;
+    top: 50px;
+}
+
+
+.baholar{
+    position: relative;
+}
+
+.baholar_logo{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    left: 590px;
+    bottom: 480px;
+}
+
+
+.customer_review{
+
+position: relative;
+
+}
 
 .customer_h{
 
 position: relative;
-
-right: 4450px;
-
-width: 529px;
-height: 71px;
-top: 2700px;
-
+bottom: 500px;
+left: 50px;
 font-family: 'Rubik';
 font-style: normal;
 font-weight: 700;
-font-size: 60.4566px;
+font-size: 50px;
 line-height: 71px;
 font-feature-settings: 'kern' off;
 
@@ -299,26 +248,12 @@ color: #333333;
 
 }
 
-
-
-
 .customer_p{
 
 position: relative;
-
-right: 4450px;
-
-top: 2750px;
-
-
-color: #333333;
-
-
-
-
-
-width: 675.1px;
-height: 121px;
+max-width: 600px;
+bottom: 480px;
+font-family: 'Rubik';
 font-style: normal;
 font-weight: 400;
 font-size: 20.1522px;
@@ -326,79 +261,356 @@ line-height: 30px;
 color: #828282;
 
 
+}
 
-
+.ism{
+    position: relative;
+    display: flex;
 
 }
 
-.customer_left{
-
-
+.elipse{
+    position: relative;
+    bottom: 440px;
+    width: 70px;
+    height: 70px;
 
 }
 
-
-.customer_right{
-
+.abdur{
 position: relative;
-right: 3500px;
-top: 2400px;
+bottom: 440px;
+left: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 17.6712px;
+line-height: 33px;
+
+color: #90E051;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.custome{
+position: relative;
+right: 120px;
+bottom: 400px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18.8392px;
+line-height: 28px;
+color: #828282;
+
+
+}
+
+.strelka{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    left: 100px;
+    bottom: 400px;
+}
+
+.part_chizburger{
+
+    position: relative;
 }
 
 .chizburger{
+    position: relative;
 
+    width: 500px;
+    height: 400px;
+    left: 680px;
+    bottom: 770px;
+}
+
+.order_now{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+background-color: whitesmoke;
+
+}
+
+
+.order_now{
+
+    position: relative;
+    left: 600px;
+    bottom: 950px;
+}
+
+.order_h{
+
+    position: relative;
+top: 30px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 20.1902px;
+line-height: 35px;
+color: #333333;
 
 
 }
 
-.baho{
+.stars{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    height: 20px;
+}
+
+.order_p{
+max-width: 600px;
 position: relative;
-right: 270px;
-bottom: 280px;
+top: 40px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 15.1522px;
+color: #828282;
+
 
 }
-
 
 .tel_burger{
 
-position: relative;
-top: 3400px;
-right: 5300px;
-}
-
-
-.big_img{
 
 position: relative;
+width: 1400px;
+height: 300px;
+background-color: greenyellow;
+bottom: 530px;
+}
+
+.tel_burgerlogo{
+
+position: relative;
 
 
 }
 
+.right_burger{
+    position: relative;
+
+    width: 150px;
+    height: 230px;
+    left: 1253px;
+    top: 140px;
+}
+
+.center_h{
+
+position: relative;
+bottom: 180px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40.1356px;
+line-height: 77px;
+max-width: 600px;
+color: #fff;
+line-height: 50px;
+left: 690px;
+}
+
+.left_burger{
+
+ position: relative;
+
+    width: 250px;
+    height: 200px;
+bottom: 990px;
+}
+
+.iphone12{
+
+position: relative;
+width: 240px;
+height: 500px;
+bottom: 610px;
+left: 140px;
+}
+
+.iphone13{
+    position: relative;
+    right: 310px;
+    bottom: 590px;
+    width: 340px;
+    height: 650px;
+}
 
 .about_us{
 
 position: relative;
-top: 4400px;
-right: 7220px;
+
 
 }
 
 .about_img{
 
+
     position: relative;
+    width: 630px;
+    height: 480px;
+    left: 640px;
+    bottom: 300px;
+}
+
+.yashilfon{
+
+
+    position: relative;
+    left: 485px;
+    bottom: 180px;
+}
+
+.about_wrapper{
+
+    position: relative;
+    width: 620px;
+    height: 380px;
+    background-color: whitesmoke;
+    bottom: 500px;
+    left: 170px;
 }
 
 
-.footer{
-
+.nomsiz_h{
 position: relative;
-top: 5400px;
-right: 9140px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 30.2598px;
+line-height: 58px;
+left: 50px;
+top: 55px;
+
+color: #000000;
+
+
+}
+
+.nomsiz_p{
+    position: relative;
+
+
+    max-width: 300px;
+    font-size: 23px;
+    font-weight: 400;
+    top: 70px;
+    left: 50px;
+}
+
+.nomsiz_img{
+    position: relative;
+    width: 190px;
+    height: 160px;
+    bottom: 270px;
+    right: 65px;
+}
+
+
+.input_div{
+
+display: flex;
+position: relative;
+width: 1180px;
+height: 280px;
+background-color: whitesmoke;
+left: 120px;
+bottom: 40px;
+align-items: center;
+z-index: 1;
+
+}
+
+.input_h4{
+    position: relative;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+color: #90E051;
+max-width: 300px;
+left: 50px;
+
+
+}
+
+.footer_input{
+    position: relative;
+    width: 350px;
+    height: 60px;
+    left: 100px;
+    border: 1px solid greenyellow;
+    font-size: 24px;
+    padding-left: 20px;
+
+
+
+
+
+font-family: 'Rubik';
+font-style: normal;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #90E051;
+
+
+}
+
+.subscribe{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 48px;
+gap: 10px;
+position: relative;
+
+background: #90E051;
+
+height: 60px;
+font-family: 'Helvetica';
+font-style: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+border: navajowhite;
+color: #FFFFFF;
+left: 100px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.input_div{
 
 }
 
 .footer_img{
-
-position: relative;
-
+    position: relative;
+    width: 1400px;
+    height: 500px;
+    bottom: 140px;
 }
